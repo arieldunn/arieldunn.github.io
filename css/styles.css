@@ -219,6 +219,45 @@ summary {
   margin-top: 2.2rem;
 }
 
+.recognition {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  max-width: 100%;
+  width: fit-content;
+}
+
+.recognition img {
+  flex: 0 0 72px;
+  height: auto;
+  width: 72px;
+}
+
+.recognition > span {
+  min-width: 0;
+}
+
+.recognition strong {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.recognition-link {
+  color: var(--forest);
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin-top: 0.25rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.recognition:hover .recognition-link {
+  color: var(--teal);
+}
+
 .button {
   align-items: center;
   border: 1px solid var(--forest);
